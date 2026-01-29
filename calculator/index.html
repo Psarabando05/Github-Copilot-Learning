@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora Simples</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" class="display" readonly aria-label="Display da calculadora">
+    <div class="buttons">
+      <button data-action="clear">C</button>
+      <button data-action="delete">⌫</button>
+      <button data-action="operator">÷</button>
+      <button data-action="operator">×</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button data-action="operator">-</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button data-action="operator">+</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button data-action="equals" class="equals">=</button>
+
+      <button class="zero">0</button>
+      <button>.</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
